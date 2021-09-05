@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href="styles/default.css" rel="stylesheet" type="text/css" >
+	<title>Will Colvill, ITIS3135, About Me</title>
+</head>
+
+<body>
+	<header>
+			<h1>Will Colvill >> ITIS3135</h1>
+	</header>
+	
+	<main>
+		<h2>Introduction</h2>
+		
+		<figure>
+			<a href="C:\Users\colvi\OneDrive\Pictures\Qs.png">
+			    <img src="C:\Users\colvi\OneDrive\Pictures\Qs.png" alt="My Logo created by Jake Turney">
+			</a>
+			<figcaption>Streaming Logo Created By Jake Turney</figcaption>
+		</figure>
+        <ul>
+            <li>Personal background: Grew up in NC. Went to App State then to UNCC to finish my bachelors degree.</li>
+            <li>Professional: Mechanical Engineer, 3D Printing Technician and Bartender.</li>
+            <li>Academic background: Working on Bachelors Degree in Software Development, Licensed Bartender, Lacrosse Coach.</li>
+            <li>Background in the subject matter of this course: First time using HTML and CSS but familiar with the ideas behind it.</li>
+            <li>Primary Computer Platform: Windows 10</li>
+            <li>Funny story or interesting item about yourself to remember you by:
+                I helped open a bar in Lewisville, NC to provide the community a place where they can all come together and be closer.</li>
+            <li>I'd also like to share:
+                I am an avid athlete and gamer.</li>
+        </ul>
+	
+	</main>
+	
+	<footer>
+
+		<br />
+		<p>
+			Page built by Will Colvill
+		</p>
+		<a href="https://validator.w3.org/check?uri=referer">
+			<img src="images/button-valid-html5.gif" width="88" height="31" alt="Link to HTML validator">
+		</a>
+
+		<a href="https://jigsaw.w3.org/css-validator/check/referer">
+			<img src="images/button-valid-css.gif" width="88" height="31" alt="Link to CSS validator">
+		</a>
+	
+	</footer>
+
+</body>
+
+</html>
