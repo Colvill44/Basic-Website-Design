@@ -1,0 +1,158 @@
+<html lang="en">
+  <style>
+    body {
+      width:1000px;
+      margin: 0 auto;
+    }
+    table {
+      border-collapse: collapse;
+      margin: 20px;
+    }
+    thead {
+      background-color: purple;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: .2em 1em .2em .53m;
+      text-align: left;
+      vertical-align: middle;
+    }
+    .right {
+      text-align: right;
+    }
+    .darker {
+      background-color: darkpurple;
+    }
+  </style>
+  <head>
+    <title>HTML Tables</title>
+    <meta name="description" content="3131 HTML Tables Activity">
+    <meta charset="UTF-8">
+  </head>
+
+<body>
+  <h1>HTML Tables</h1>
+  <table>
+    <thead>
+      <tr id="darker">
+        <th>Name</th>
+        <th>E-mail</th>
+        <th class="right">Years of Service</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John Doe</td>
+        <td>jdoe@gmail.com</td>
+        <td class="right">44</td>
+      </tr>
+      <tr>
+        <td>Mark Twain</td>
+        <td>mtwain@gmail.com</td>
+        <td class="right">4</td>
+      </tr>
+      <tr>
+        <td>Joe Mamma</td>
+        <td>jmamma@gmail.com</td>
+        <td class="right">27</td>
+      </tr>
+      <tr>
+        <td>Jerry Rice</td>
+        <td>jrice@gmail.com</td>
+        <td class="right">42</td>
+      </tr>
+      <tr>
+        <td>Donald Duck</td>
+        <td>dduck@gmail.com</td>
+        <td class="right">13</td>
+      </tr>
+      <tr>
+        <td>George Bush</td>
+        <td>gbush@gmail.com</td>
+        <td class="right">42</td>
+      </tr>
+      <tr>
+        <td>Sally Shells</td>
+        <td>sshells@gmail.com</td>
+        <td class="right">1</td>
+      </tr>
+    </tbody>
+  </table>
+  <h1>Employee Data in Complex Table</h1>
+  <figure>
+  <table>
+    <thead>
+      <tr>
+        <th>Job</th>
+        <th>Name</th>
+        <th>E-mail</th>
+        <th class="right">Years of Service</th>
+        <th class="right">Monthly Salary</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Sales</td>
+        <td>John Doe</td>
+        <td>jdoe@gmail.com</td>
+        <td class="right">44</td>
+        <td class="right">$60,000</td>
+      </tr>
+      <tr>
+        <td>Sales</td>
+        <td>Mark Twain</td>
+        <td>mtwain@gmail.com</td>
+        <td class="right">4</td>
+        <td class="right">$55,000</td>
+      </tr>
+      <tr>
+        <td>Marketing</td>
+        <td>Joe Mamma</td>
+        <td>jmamma@gmail.com</td>
+        <td class="right">27</td>
+        <td class="right">$40,000</td>
+      </tr>
+      <tr>
+        <td>Marketing</td>
+        <td>Jerry Rice</td>
+        <td>jrice@gmail.com</td>
+        <td class="right">42</td>
+        <td class="right">$70,000</td>
+      </tr>
+      <tr>
+        <td>HR</td>
+        <td>Donald Duck</td>
+        <td>dduck@gmail.com</td>
+        <td class="right">13</td>
+        <td class="right">$40,000</td>
+      </tr>
+      <tr>
+        <td>HR</td>
+        <td>George Bush</td>
+        <td>gbush@gmail.com</td>
+        <td class="right">42</td>
+        <td class="right">$62,000</td>
+      </tr>
+      <tr>
+        <td>HR</td>
+        <td>Sally Shells</td>
+        <td>sshells@gmail.com</td>
+        <td class="right">1</td>
+        <td class="right">$46,000</td>
+      </tr>
+      <tr>
+        <td>Totals</td>
+        <td></td>
+        <td></td>
+        <td>173</td>
+        <td>$373,000</td>
+    </tbody>
+  </table>
+  </figure>
+  <figcaption>Employee Information</figcaption>
+  <footer>
+    <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a> <br>
+		<a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+  </footer>
+</body>
+</html>
