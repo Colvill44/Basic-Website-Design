@@ -1,0 +1,134 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	text-align: center;
+}
+.wrap {
+	width: 100%;
+	margin: 0 auto;
+}
+header {
+	height: 100px;
+	background: #262626;
+	width: 100%;
+	z-index: 12;
+	position: fixed;
+}
+.logo {
+	padding-left: 7%;
+	float: left;
+	line-height: 100px;
+}
+.logo img {
+	width: 30px;
+	height: 30px;
+	background: #262626;
+	padding-right: 5px;
+}
+.logo a {
+	text-decoration: none;
+	font-size: 30px;
+	font-family: bignoodletilting;
+	color: #fff;
+	letter-spacing: 5px;
+}
+nav {
+	float: right;
+	line-height: 100px;
+	padding-right: 7%;
+}
+nav a {
+	text-decoration: none;
+	font-family: bignoodletilting;
+	letter-spacing: 4px;
+	font-size: 20px;
+	margin: 0 10px;
+	color: #fff;
+}
+.banner {
+	width: 100%;
+	height: 400px;
+	position: fixed;
+	top: 100px;
+	background-image: url(backdrop.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+.banner h2 {
+	padding-top: 8%;
+	font-size: 70px;
+	font-family: Montserrat;
+	text-transform: uppercase;
+	color: #f5f5f5;
+	opacity: 70%;
+}
+.content {
+	position: relative;
+	top: 450px;
+	background: #ddd;
+	width: 100%;
+	border-bottom: 100px;
+	padding-bottom: 100px;
+}
+.content h2 {
+	font-family: bignoodletilting;
+	letter-spacing: 1px;
+	padding-top: 30px;
+	font-size: 40px;
+	margin: 0;
+}
+.content h3 {
+	font-family: bignoodletilting;
+	letter-spacing: 1px;
+	padding-top: 30px;
+	font-size: 25px;
+	margin: 0;
+}
+.content p {
+	padding: 2% 0;
+	font-family: bignoodletilting;
+	line-height: 30px;
+	padding-right: 15%;
+	padding-left: 15%;
+}
+.content ul {
+	text-align: left;
+	padding-left: 45%;
+}
+.content img {
+	height: 200px;
+	width: 200px;
+}
+.footer {
+	padding-top: 5px;
+	border-top: 5px;
+}
+footer {
+	position: fixed;
+	bottom: 0px;
+	height: 100px;
+	z-index: 12;
+	width: 100%;
+	background: #262626;
+	color: #fff;
+}
+footer .copyright {
+	position: fixed;
+	padding: 0;
+	border: 0;
+	bottom: 60px;
+	left: 0%;
+	right: 0%;
+}
+footer .validate {
+	position: fixed;
+	padding: 0;
+	border: 0;
+	bottom: 20px;
+	left: 0%;
+	right: 0%;
+}
+	
+

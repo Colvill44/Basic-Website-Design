@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+	<meta charset="UTF-8">
+	<title>Will Colvill's Client Website - Clean Guild</title>
+	<link href="styles/default.css" rel="stylesheet" type="text/css">
+	<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" 
+	crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="styles/grt-youtube-popup.css">
+	
+</head>
+
+
+
+<body>
+
+	<script>
+		$(function(){
+			$('.header').load('components/header.html');
+			$('.footer').load('components/footer.html');
+		});
+	</script>
+	
+	<div class="header"></div>
+	
+	<div class="info">
+		<br>
+		<img src="images/tk.jpg" alt="TK Logo">
+		<h1>Tempest Keep Guide</h1>
+		<span class="youtube-link" youtubeid="v6lT8ZZplH8">Play Video</span><br><br>
+		<img src="images/ssc.jpg" alt="SSC Logo">
+		<h1>Serpentshrine Cavern Guide</h1>
+		<span class="youtube-link" youtubeid="P5uGSXAfCfY">Play Video</span><br><br>
+		<img src="images/bt.jpg" alt="BT Logo">
+		<h1>Black Temple Guide</h1>
+		<span class="youtube-link" youtubeid="hkLrTbdmHJo">Play Video</span><br><br>
+		<img src="images/hs.jpg" alt="HS Logo">
+		<h1>Hyjal Summit Guide</h1>
+		<span class="youtube-link" youtubeid="ih94geFqpxQ">Play Video</span><br><br>
+		<img src="images/sp.jpg" alt="SP Logo">
+		<h1>Sunwell Plateau Guide</h1>
+		<span class="youtube-link" youtubeid="ZSPnDtYoxsE">Play Video</span><br><br>
+		
+	</div>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="scripts/grt-youtube-popup.js"></script>
+	<script> $(".youtube-link").grtyoutube(); </script>
+	<div class="footer"></div>
+
+		
+
+</body>
+	
+	
+</html>

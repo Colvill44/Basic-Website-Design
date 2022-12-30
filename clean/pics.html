@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+	<meta charset="UTF-8">
+	<title>Will Colvill's Client Website - Clean Guild</title>
+	<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" 
+	crossorigin="anonymous"></script>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+	<script src="scripts/slides.js"></script>
+	<link href="styles/default.css" rel="stylesheet" type="text/css">
+</head>
+
+
+
+<body>
+
+	<script>
+		$(function(){
+			$('.header').load('components/header.html');
+			$('.footer').load('components/footer.html');
+		});
+	</script>
+	
+	<div class="header"></div>
+	
+		<div class="content">
+		<ul id="slider">
+            <li><img src="images/slide1.jpg" height="650px" width="100%" alt="Clean Guild"></li>
+            <li><img src="images/slide2.jpg" height="650px" width="100%" alt="Clean Guild"></li>
+            <li><img src="images/slide3.jpg" height="650px" width="100%" alt="Clean Guild"></li>
+            <li><img src="images/slide4.jpg" height="650px" width="100%" alt="Clean Guild"></li>
+            <li><img src="images/slide5.jpg" height="650px" width="100%" alt="Clean Guild"></li>
+        </ul>
+		</div>
+
+	<div class="footer"></div>
+
+		
+
+</body>
+	
+	
+</html>

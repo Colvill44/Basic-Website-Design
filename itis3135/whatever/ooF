@@ -1,0 +1,20 @@
+p {
+	text-align: center;
+	font-family: papyrus;
+	font-size: 50px;
+	background-color: green;
+	border: 7px;
+	border-color: grey;
+}
+h2 {
+	font-family: comic sans;
+}
+ol {
+	text-align: center;
+}
+img {
+	opacity: 20%;
+}
+h1 {
+	text-decoration: underline;
+}
